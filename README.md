@@ -4,7 +4,7 @@
 A C implementation of association free protocols, ViFi [1] and Adaptive ViFi [2], that allows an IoT node to stuff data in a probe request for association free communication between IoT nodes and AP. The documentation includes a description of the files, the input parameters, the functions and an example application.
 
 
-## File Orgnization
+## File Organization
 This repo contains the code for:
 1. ViFi - Data is stuffed in a probe request, broadcasted on all channels, and at a constant transmission interval.
 
