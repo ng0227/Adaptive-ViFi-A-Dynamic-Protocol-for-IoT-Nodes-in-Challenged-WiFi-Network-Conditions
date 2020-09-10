@@ -1,5 +1,9 @@
 # Adaptive-ViFi-A-Dynamic-Protocol-for-IoT-Nodes-in-Challenged-WiFi-Network-Conditions
 
+## Description
+A C implementation of association free protocols, ViFi [1] and Adaptive ViFi [2], that allows an IoT node to stuff data in a probe request for association free communication between IoT nodes and AP. The documentation includes a description of the files, the input parameters, the functions and an example application.
+
+
 ## Pre-Requisite
 [libnl](https://www.infradead.org/~tgr/libnl/) is required to run the code. To install libnl, run the following command in your terminal:
 ```
@@ -29,3 +33,6 @@ Example (Best Delivery Effort): `sudo ./probe_stuffing -i wlan0 -d "LoremIpsumDo
 Example (Guaranteed Delivery Effort): `sudo ./probe_stuffing -i wlan0 -d "LoremIpsumDolor" -e 2`
 
 `sudo ./probe_stuffing -i wlan0 -f abc.txt -e 2`
+
+## References
+
