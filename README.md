@@ -78,6 +78,8 @@ To compile the program:
 To run the executable:
 `sudo ./MyApplication`
 
+For more information, please refer to /library/LibraryDocumentation.pdf
+
 
 ## References
 1. Dheryta Jaisinghani, Gursimran Singh, Harish Fulara, Mukulika Maity, and Vinayak Naik. 2018. Elixir: Efficient Data Transfer in WiFi-based IoT Nodes. In Proceedings of the 24th Annual International Conference on Mobile Computing and Networking (MobiCom 2018). DOI:https://doi.org/10.1145/3241539.3267717
