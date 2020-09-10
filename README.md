@@ -44,7 +44,7 @@ Example (Guaranteed Delivery Effort): `sudo ./probe_stuffing -i wlan0 -d "LoremI
 `sudo ./probe_stuffing -i wlan0 -f abc.txt -e 2`
 
 
-## How to run ViFi library
+## How to use ViFi library in a program
 1. To use the ViFi library, include library header in your program. Example: `#include<headers.h>` where headers.h is the name of the library header file.
 
 2. Necessary function to call:
