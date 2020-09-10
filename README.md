@@ -45,21 +45,22 @@ Example (Guaranteed Delivery Effort): `sudo ./probe_stuffing -i wlan0 -d "LoremI
 
 
 ## How to run ViFi library
-1. To use the ViFi library in your program, include library header in your program. Example: `#include<headers.h>` where headers.h is the name of the library header file.
+1. To use the ViFi library, include library header in your program. Example: `#include<headers.h>` where headers.h is the name of the library header file.
 
 2. Necessary function to call:
-`set_wifi_interface(<Name of the interface>);` 
-`start_probe_stuffing(<data_input_mode>, <data_source>);`
+* `set_wifi_interface(<Name of the interface>);` 
+* `start_probe_stuffing(<data_input_mode>, <data_source>);`
 
 3. Optional functions to set different configurations: 
-`set_effort(<effort 1 or 2>);`
-`set_probe_tx_interval(<time in seconds>);`
-`set_data_to_stuff_size_limit(<size in bytes>);`
+* `set_effort(<effort 1 or 2>);`
+* `set_probe_tx_interval(<time in seconds>);`
+* `set_data_to_stuff_size_limit(<size in bytes>);`
 
 Example Program: `MyApplication.c`
 
 ```C
-#include<headers.h> int main () {
+#include<headers.h> 
+int main () {
   set_wifi_interface("wlp19s0"); 
   start_probe_stuffing (0, "Hello_World");
   return 0; 
