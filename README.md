@@ -84,4 +84,4 @@ For more information, please refer to /library/LibraryDocumentation.pdf
 ## References
 1. Dheryta Jaisinghani, Gursimran Singh, Harish Fulara, Mukulika Maity, and Vinayak Naik. 2018. Elixir: Efficient Data Transfer in WiFi-based IoT Nodes. In Proceedings of the 24th Annual International Conference on Mobile Computing and Networking (MobiCom 2018). DOI:https://doi.org/10.1145/3241539.3267717
 
-2. Dheryta Jaisinghani, Naman Gupta, Mukulika Maity, Vinayak Naik. 2020. Adaptive ViFi: A Dynamic Protocol for IoT Nodes in Challenged WiFi Network Condition. In Proceedings of the 17th IEEE International Conference on Mobile Ad-Hoc and Smart Systems (MASS 2020). 
+2. Dheryta Jaisinghani, Naman Gupta, Mukulika Maity, Vinayak Naik. 2020. Adaptive ViFi: A Dynamic Protocol for IoT Nodes in Challenged WiFi Network Condition. In Proceedings of the 17th IEEE International Conference on Mobile Ad-Hoc and Smart Systems (MASS 2020). DOI:https://doi.org/10.1109/MASS50613.2020.00028
