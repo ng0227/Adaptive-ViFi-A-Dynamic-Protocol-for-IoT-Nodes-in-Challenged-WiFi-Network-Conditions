@@ -6,6 +6,8 @@ A C implementation of association free protocols, ViFi [1] and Adaptive ViFi [2]
 ### System Model:
 <img src="readmeImages/SystemModel.png" width="700">
 
+### State Transitions in ViFi protocol:
+<img src="readmeImages/Protocol.png" width="700">
 
 ## File Organization
 This repo contains the code for:
