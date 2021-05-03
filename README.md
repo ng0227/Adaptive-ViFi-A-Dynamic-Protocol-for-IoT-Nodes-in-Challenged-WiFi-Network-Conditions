@@ -4,10 +4,15 @@
 A C implementation of association free protocols, ViFi [1] and Adaptive ViFi [2], that allows an IoT node to stuff data in a probe request for association free communication between IoT nodes and AP. The documentation includes a description of the files, the input parameters, the functions and an example application.
 
 ### System Model:
-<img src="readmeImages/SystemModel.png" width="700">
+<img src="readmeImages/SystemModel.png" width="500">
+
 
 ### State Transitions in ViFi protocol:
-<img src="readmeImages/Protocol.png" width="700">
+<img src="readmeImages/Protocol.png" width="500">
+
+
+### Flowchart of the Adaptive ViFi protocol:
+<img src="readmeImages/Flowchart_Adaptive_algo.png" width="500">
 
 ## File Organization
 This repo contains the code for:
