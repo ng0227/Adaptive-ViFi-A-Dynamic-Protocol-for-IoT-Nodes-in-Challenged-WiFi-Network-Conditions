@@ -35,7 +35,10 @@ sudo apt-get install libnl-genl-3-dev
 
 Build with: `make`
 
-Run with: `sudo ./probe_stuffing -i <Network Interface> -d <Data> or -f <File Name> -e <Delivery Effort>`
+Run with: `sudo ./probe_stuffing -i <Network Interface> -d <Data> -e <Delivery Effort>`
+
+or if you want the data to be read from a file
+`sudo ./probe_stuffing -i <Network Interface> -f <File Name> -e <Delivery Effort>` 
 
 `<Network Interface>` The network interface to use for sending scan request. Data is stuffed inside the probe request packets sent during the scan request.
 
